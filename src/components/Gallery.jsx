@@ -9,17 +9,24 @@ export default function Gallery()
         <img src="../dark_laptop.jpg"
         alt="Image"
         className="main"
+        title="lappy"
+        onClick={()=>alert("Hii")}
         />
         <p>Gallerry</p>
         </div>
-        <div>
+        
             <img src={wall}
         alt="second"
-        width={500}
-        height={1000}/>
-        </div>
+        width={500+100}
+        height={600}/>
+        {/* comment*/}
+        </>
         
-    </>
         
+       
+  
+   
+    //<> and </> A Fragment lets you group multiple elements without adding an extra <div> to the HTML.
+      
     )
 }
