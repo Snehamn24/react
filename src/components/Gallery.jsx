@@ -1,5 +1,6 @@
 import wall from "../assets/dark_laptop.jpg"
 import "./Gallery.css"
+import bean from "../assets/bean.mp4"
 
 import { useState } from "react"
 
@@ -31,6 +32,17 @@ export default function Gallery()
         width={500+100}
         height={600}/>
         {/* comment*/}
+
+        {/* video */}
+        <video controls width={500} autoPlay muted>
+            <source src={bean} type="video/mp4"></source>
+
+        </video>
+        <h1 className="text-2xl text-red-500">We have added the attribute muted becuase some browsers will work only 
+            when the video is muted to autoPlay the muted is required
+        </h1>
+
+
         </>
         
         

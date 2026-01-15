@@ -5,6 +5,8 @@ export default function Home()
         <section id="gallery">
             <Gallery />
 
+            <p>This is Gallery</p>
+           
         </section>
     )
 }
