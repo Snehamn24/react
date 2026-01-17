@@ -1,0 +1,16 @@
+.home
+{
+    text-align: center;
+    margin-top: 25%;
+
+}
+.home button
+{
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 12px 24px;
+    margin-left: 5%;
+
+
+}

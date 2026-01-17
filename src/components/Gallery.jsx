@@ -26,7 +26,7 @@ export default function Gallery()
         <button className="text-3xl text-pink-600" onClick={()=>setCount(count-1)}>Decrement-</button>
         <h1>{count}</h1>
         </div>
-        
+
             <img src={wall}
         alt="second"
         width={500+100}
