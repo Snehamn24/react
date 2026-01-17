@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://<username>:<password>@movies.pbmmusf.mongodb.net/?appName=movies").then(()=>console.log("MongoDb connected")).catch((err)=>console.log(err));
+mongoose.connect("url").then(()=>console.log("MongoDb connected")).catch((err)=>console.log(err));
 
 app.use("/api",reviewRoutes);
 
